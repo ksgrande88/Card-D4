@@ -4,7 +4,7 @@ const destinations = {
   tabela: "https://docs.google.com/spreadsheets/d/184myEvIlXvMINmsk30JGBw4Y2RbMA1SD/edit",
   equipe: "", // PNG Quem faz o que: conteúdo a definir.
   imagens: "https://drive.google.com/drive/folders/1Dkn6AasMnvxKDDt3hlxEYs0V_a0L4Nja",
-  whatsapp: "https://wa.me/554899175986",
+  whatsapp: "https://wa.me/554891759586",
   tema: "https://drive.google.com/file/d/1u6nyWOluaZ5HqB126Th1HUVLBmUlp9ld/view",
   opcj1: "https://drive.google.com/file/d/1qmNKraTWROndoainQ7jb_hZi-Mtfw8QF/view",
   opcj2: "https://drive.google.com/file/d/1Y0Nv-nwgIwZZJCOjg4m_syziMoh-FTUd/view",
