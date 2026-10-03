@@ -1,0 +1,73 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f3f3f4;
+  background: #142337;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; line-height: 1.5; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(#08132555, #08132555), url("assets/fundo.webp") center / cover no-repeat;
+}
+.container {
+  width: min(520px, calc(100% - 32px));
+  margin: 32px auto;
+  padding: 32px 28px 22px;
+  background: #101b2ff2;
+  border: 1px solid #d6b37335;
+  border-radius: 40px;
+  box-shadow: 0 16px 48px #0004;
+}
+header { text-align: center; margin-bottom: 32px; }
+.emblem { display: block; width: 162px; height: auto; margin: 0 auto 22px; border-radius: 5px; }
+h1 { font-size: 25px; font-weight: 400; letter-spacing: 4px; margin: 0; }
+.subtitle { color: #d6b373; font-size: 13px; letter-spacing: 3px; margin: 8px 0 0; }
+nav { display: grid; gap: 16px; }
+details { border: 1px solid #d6b37380; border-radius: 14px; overflow: hidden; background: #ffffff04; }
+summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 18px 20px;
+  min-height: 66px;
+  font-size: 17px;
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-right: 1.5px solid #d6b373;
+  border-bottom: 1.5px solid #d6b373;
+  transform: rotate(45deg);
+  margin: -4px 2px 0 0;
+  transition: transform .15s ease;
+}
+details[open] summary::after { transform: rotate(225deg); margin-top: 4px; }
+details[open] summary { background: #d6b3730d; }
+.links { border-top: 1px solid #d6b37330; padding: 4px 20px 8px; }
+.links a { display: block; padding: 13px 0; min-height: 48px; color: #e5c88e; text-decoration: none; font-size: 15px; overflow-wrap: anywhere; }
+.links a + a { border-top: 1px solid #ffffff14; }
+.links a[href]:hover { text-decoration: underline; text-underline-offset: 4px; }
+.links a[aria-disabled] { color: #b0b8c4; }
+.pending { display: block; font-size: 11px; margin-top: 3px; color: #8f9bad; }
+summary:hover { background: #ffffff08; }
+summary:focus-visible, a:focus-visible { outline: 2px solid #f0cf8b; outline-offset: -4px; border-radius: 6px; }
+footer { text-align: center; color: #8793a7; font-size: 11px; letter-spacing: 2px; margin-top: 30px; }
+@media (max-width: 360px) {
+  .container { padding: 26px 18px 20px; border-radius: 30px; margin: 20px auto; }
+  summary { font-size: 15px; padding: 16px; }
+  h1 { font-size: 22px; letter-spacing: 3px; }
+  .emblem { width: 142px; }
+}
+@media (prefers-reduced-motion: reduce) { summary::after { transition: none; } }
