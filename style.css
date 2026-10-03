@@ -12,7 +12,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(#08132555, #08132555), url("assets/fundo.webp") center / cover no-repeat;
+  background: linear-gradient(#08132555, #08132555), url("assets/mapa-2.webp") center / cover no-repeat;
 }
 .container {
   width: min(520px, calc(100% - 32px));
