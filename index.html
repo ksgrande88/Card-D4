@@ -7,9 +7,9 @@
   <meta name="description" content="Acessos da célula D4 do exercício AZUVER 2026.">
   <title>AZUVER 2026 · D4</title>
   <link rel="icon" href="assets/escudo-d4-transparente.webp">
-  <link rel="stylesheet" href="style.css?v=equipe1">
+  <link rel="stylesheet" href="style.css?v=equipe2">
   <script src="links.js?v=7f117e4" defer></script>
-  <script src="equipe.js?v=1" defer></script>
+  <script src="equipe.js?v=2" defer></script>
 </head>
 <body>
   <main class="container">
@@ -71,54 +71,24 @@
   </main>
 
   <dialog id="equipe-dialog" aria-labelledby="equipe-title">
-    <div class="dialog-heading">
-      <h2 id="equipe-title">Quem faz o quê</h2>
-      <form method="dialog"><button class="close-dialog" autofocus>Fechar</button></form>
-    </div>
-    <div class="team-content">
-      <section class="team-cell">
-        <h3>Chefia D4</h3>
-        <article><h4>Maj Casagrande</h4>
-          <p><strong>Função:</strong> Ch D4 — coordenação e Cl II/X.</p>
-          <p><strong>Missão:</strong> Apresenta o briefing. Adequabilidade — slide 4. Aceitabilidade — slide 18.</p>
-        </article>
-      </section>
-      <section class="team-cell">
-        <h3>Adj 1</h3>
-        <article><h4>CC Medella</h4>
-          <p><strong>Função:</strong> Cl I/VIII, RH e Saúde.</p>
-          <p><strong>Missão:</strong> Slides 15 e 16.</p>
-        </article>
-      </section>
-      <section class="team-cell">
-        <h3>Adj 2</h3>
-        <article><h4>Maj Carlos Augusto</h4>
-          <p><strong>Função:</strong> Adj 2 — Cl III/V/IX, Manutenção e Salvamento.</p>
-          <p><strong>Missão:</strong> Slide 12, com apoio de Carolina e Cavalcante.</p>
-        </article>
-        <article><h4>Maj Carolina</h4>
-          <p><strong>Função:</strong> Ap FAB — Cl III/V/IX, Manutenção e Salvamento.</p>
-          <p><strong>Missão:</strong> Apoia Carlos Augusto no slide 12.</p>
-        </article>
-        <article><h4>CC Cavalcante</h4>
-          <p><strong>Função:</strong> Ap MB — Cl III/V/IX, Manutenção e Salvamento.</p>
-          <p><strong>Missão:</strong> Apoia Carlos Augusto no slide 12.</p>
-        </article>
-      </section>
-      <section class="team-cell">
-        <h3>Adj 4 — D4 Fut 2</h3>
-        <article><h4>TC Watanabe</h4>
-          <p><strong>Função:</strong> Cl IV/VI/VII e Engenharia.</p>
-          <p><strong>Missão:</strong> Praticabilidade C2, Of e Def — slides 7, 8 e 9.</p>
-        </article>
-      </section>
-      <section class="team-cell">
-        <h3>Ligação com o CLTO</h3>
-        <article><h4>Maj Freitas</h4>
-          <p><strong>Função:</strong> Transporte e Assuntos Civis.</p>
-          <p><strong>Missão:</strong> CLTO na L Aç 1.</p>
-        </article>
-      </section>
+    <div class="team-panel">
+      <div class="dialog-heading">
+        <h2 id="equipe-title">Quem faz o quê</h2>
+        <form method="dialog"><button class="close-dialog" autofocus>Fechar</button></form>
+      </div>
+      <table class="team-table">
+        <colgroup><col class="name-column"><col class="function-column"><col class="mission-column"></colgroup>
+        <thead><tr><th scope="col">Posto e nome</th><th scope="col">Função</th><th scope="col">Missão</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Maj Casagrande</th><td>Cl II/X</td><td>Apresenta o briefing. Adequabilidade (4); aceitabilidade (18).</td></tr>
+          <tr><th scope="row">CC Medella</th><td>Cl I/VIII, RH e Saúde</td><td>Slides 15 e 16.</td></tr>
+          <tr><th scope="row">Maj Carlos Augusto</th><td>Cl III/V/IX, Manutenção e Salvamento</td><td>Slide 12.</td></tr>
+          <tr><th scope="row">Maj Carolina</th><td>Ap FAB — Cl III/V/IX, Manutenção e Salvamento</td><td>Apoia Carlos Augusto no slide 12.</td></tr>
+          <tr><th scope="row">CC Cavalcante</th><td>Ap MB — Cl III/V/IX, Manutenção e Salvamento</td><td>Apoia Carlos Augusto no slide 12.</td></tr>
+          <tr><th scope="row">TC Watanabe</th><td>Cl IV/VI/VII e Engenharia</td><td>Praticabilidade C2, Of e Def (7, 8 e 9).</td></tr>
+          <tr><th scope="row">Maj Freitas</th><td>Transporte e Assuntos Civis</td><td>CLTO na L Aç 1.</td></tr>
+        </tbody>
+      </table>
     </div>
   </dialog>
 </body>
