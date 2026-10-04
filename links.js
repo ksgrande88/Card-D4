@@ -5,7 +5,7 @@ const destinations = {
   equipe: "", // PNG Quem faz o que: conteúdo a definir.
   imagens: "https://drive.google.com/drive/folders/1Dkn6AasMnvxKDDt3hlxEYs0V_a0L4Nja",
   whatsapp: "https://wa.me/554891759586",
-  tema: "https://drive.google.com/file/d/1u6nyWOluaZ5HqB126Th1HUVLBmUlp9ld/view",
+  tema: "https://drive.google.com/file/d/187AnoYmW0l5FxPdvwF9homiRwu3xAJ0U/view?usp=drivesdk",
   opcj1: "https://drive.google.com/file/d/1qmNKraTWROndoainQ7jb_hZi-Mtfw8QF/view",
   opcj2: "https://drive.google.com/file/d/1Y0Nv-nwgIwZZJCOjg4m_syziMoh-FTUd/view",
   dameplan: "https://drive.google.com/file/d/1VKqj6wUQz3pQTyUgB4NrVdImGKXTx9jZ/view",
