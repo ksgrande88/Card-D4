@@ -12,7 +12,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(#08132555, #08132555), url("assets/mapa-2.webp") center / cover no-repeat;
+  background: linear-gradient(#08132555, #08132555), url("https://www.dropbox.com/scl/fi/h9yuqt114ihcy4ieafp7i/ChatGPT-Image-Sep-23-2026-10_07_49-PM.png?rlkey=8ss2zimio40rdln7plzgzt2vf&dl=1") center / cover no-repeat;
 }
 .container {
   width: min(520px, calc(100% - 32px));
